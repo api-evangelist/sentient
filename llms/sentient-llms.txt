@@ -1,0 +1,12 @@
+# Sentient Protocol Docs
+
+## Sentient
+
+- [What is Sentient](https://docs.sentient.xyz/readme.md)
+- [Architecture](https://docs.sentient.xyz/architecture.md)
+- [The GRID Deep Dive](https://docs.sentient.xyz/grid.md)
+- [Workflow](https://docs.sentient.xyz/grid/workflow.md)
+- [Artifacts](https://docs.sentient.xyz/grid/artifacts.md)
+- [Buiders](https://docs.sentient.xyz/grid/builders.md)
+- [Token Economy](https://docs.sentient.xyz/token_economy.md)
+- [Discussion](https://docs.sentient.xyz/discussion.md)

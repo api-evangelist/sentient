@@ -1,8 +1,28 @@
 aid: sentient
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sentient.png
 name: Sentient
-description: 'Sentient is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Sentient (Sentient Labs / Sentient Foundation) is an open-source AI research
+  lab and crypto protocol building Open, Monetizable, and Loyal (OML) artificial
+  general intelligence. Its work spans agent frameworks (ROMA recursive
+  meta-agent, Open Deep Search, EvoSkill agent-skill synthesis), the OML 1.0
+  model-fingerprinting system for verifiable model ownership and monetization,
+  and the GRID protocol with Sentient Chat as a universal interface for
+  discovering, composing, and coordinating AI artifacts. Backed by Pantera
+  Capital, Sentient publishes peer-reviewed research (NeurIPS, ICML, COLM) and
+  ships its tooling as open-source repositories on GitHub and models on Hugging
+  Face rather than as a hosted commercial REST API.
 url: https://raw.githubusercontent.com/api-evangelist/sentient/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- Artificial Intelligence
+- Agents
+- Open Source
+- Machine Learning
+- AGI
+- Research
+- LLM
+- Blockchain
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,32 @@ maintainers:
 common:
 - type: Website
   url: https://sentient.xyz/
+- type: Documentation
+  name: Sentient Protocol Docs
+  url: https://docs.sentient.xyz/
+- type: Blog
+  name: Sentient Blog
+  url: https://www.sentient.xyz/blog
+- type: GitHubOrganization
+  name: sentient-agi
+  url: https://github.com/sentient-agi
+- type: Support
+  name: Discord Community
+  url: https://discord.com/invite/sentientfoundation
+- type: SourceCode
+  name: Hugging Face Models
+  url: https://huggingface.co/SentientAGI
+- type: Organization
+  name: Sentient Foundation
+  url: https://sentient.foundation/
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/sentient-llms.txt
+- type: DomainSecurity
+  name: Domain Security Probe
+  url: security/sentient-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
