@@ -1,0 +1,31 @@
+# Front Door AI Index — sentient — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sentient
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: sentient.xyz
+  final_host: www.sentient.xyz
+  ownership: own
+  owner: sentient
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 29
+  host_score: 29
+  density: 63.6
+  words: 456
+  tiers:
+    agentic: 7
+    core: 21
+    model: 1
+  ambiguous: 14
+  top_terms:
+    AI: 20
+    agent: 14
+    AI agent: 5
+    Claude: 1
+    LLMs: 1
+    RAG: 1
+    retrieval-augmented: 1
